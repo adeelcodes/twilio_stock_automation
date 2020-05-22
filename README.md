@@ -2,7 +2,7 @@
 
 ### Things needed to use this script
 1. Alpha Vantage API Key which you can get from [here](https://www.alphavantage.co/support/#api-key) for free
-2. Twilio Account SID, Auth Token and Twilio Phone
+2. Twilio Account SID, Auth Token and Twilio Phone. You can get these from [here](https://www.twilio.com/console/sms/dashboard). You can create free account at Twilio and get a free Twilio number as well
 3. G suite account
 
 ### How to use this script?
@@ -12,3 +12,5 @@
 4. Click on the clock button at Google Apps Script editor and add daily Time Driven Trigger based on your timezone
 
 ![](images/pp.PNG)
+
+That's it! You will get SMS everyday at your time of choice.
