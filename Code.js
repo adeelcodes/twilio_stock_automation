@@ -25,14 +25,14 @@ function sendSms(symbol, body) {
   const messages_url = `https://api.twilio.com/2010-04-01/Accounts/${accountSID}/Messages.json`
 
   const payload = {
-    "To": "+37253932615",
+    "To": "YOURPHONENUMBER",
     "Body" : `Daily Report for ${symbol} in USD:
 Open ${parseFloat(body["1. open"]).toFixed(2)}
 High ${parseFloat(body["2. high"]).toFixed(2)}
 Low ${parseFloat(body["3. low"]).toFixed(2)}
 Close ${parseFloat(body["4. close"]).toFixed(2)}
 Traded Volume ${parseInt(body["5. volume"])}`,
-    "From" : "+37282156178"
+    "From" : "YOURTWILIONUMBER"
   }
 
   const options = {
