@@ -73,12 +73,3 @@ function getTodaysDate(){
     
     return today
 }
-
-
-// …or create a new repository on the command line
-// echo "# twilio_stock_automation" >> README.md
-// git init
-// git add README.md
-// git commit -m "first commit"
-// git remote add origin git@github.com:adeelulrahman/twilio_stock_automation.git
-// git push -u origin master
