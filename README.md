@@ -1,4 +1,8 @@
-# Twilio Stock Automation
+# Daily Stock Activity Reminder
+
+## What and why?
+
+This script sends daily SMS about the activity of any US stock symbol available in Alpha Vantage API. I used TWLO as an example. It can be useful to track a symbol's activity if you are holding any or intend to buy one. 
 
 ### Things needed to use this script
 1. Alpha Vantage API Key which you can get from [here](https://www.alphavantage.co/support/#api-key) for free
